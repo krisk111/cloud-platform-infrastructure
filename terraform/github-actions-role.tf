@@ -28,7 +28,7 @@ data "aws_iam_policy_document" "github_actions_assume_role" {
       variable = "token.actions.githubusercontent.com:sub"
 
       values = [
-        "repo:krisk111/cloud-platform-application:ref:refs/heads/main"
+        "repo:krisk111@248812642/cloud-platform-application@1311452651:ref:refs/heads/main"
       ]
     }
   }
